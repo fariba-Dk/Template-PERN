@@ -1,0 +1,10 @@
+==> Make sure that you have your Postgres password on hand. The psql console will ask you for your password.
+3. To clean your folder from the owner git, run the command `rm -rf .git`
+
+echo "# Template-PERN" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fariba-Dk/Template-PERN.git
+git push -u origin main
